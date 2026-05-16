@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'OldLondon';
+    src: url(Olondon_.otf) format(opentype),
+         url(OldLondon.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+h1 {
+    font-family: 'OldLondon', serif;
+    text-align: center;
+
+}
+
+p {
+    font-family: Arial, sans-serif;
+    text-align: justify;
+    text-indent : 20px;
+}
+
+h2 {
+    font-family: 'OldLondon', serif;
+    text-align: center;
+}
+
+

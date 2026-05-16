@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borda Personalizada</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    body {
+        margin-top: 0; /* Remove a margem superior para que a borda fique no topo da página */
+        border: 5px solid #000; /* Borda sólida de 5 pixels de largura e cor preta */
+        padding: 5px; /* Espaçamento interno para evitar que o conteúdo fique colado à borda */
+        border-image-source: url(borda.png); /* Imagem para a borda personalizada */
+        border-image-slice: 30; /* Define a fatia da imagem para a borda */
+        border-image-width: 10px; /* Define a largura da borda */    
+        border-image-repeat: repeat; /* Repete a imagem para preencher a borda */
+
+    }
+    h1 {
+        text-align: center; /* Centraliza o texto do título */
+        text-shadow: #293135 1px 1px 1px; /* Sombra para o texto do título */
+    }
+    </style>
+</head>
+<body>
+    <h1>Teste de borda personalizada</h1>
+</body>
+</html>

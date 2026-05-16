@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Bitcount+Grid+Double+Ink:wght@100..900&family=Datatype:wght@100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+h1 {
+    
+    font-family: 'Bitcount Grid Double Ink', cursive;
+    font-size: 3em;
+    color: #1fe958;
+}
+
+h2 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 3em;
+    color: #213627;
+}
+
+p  {
+    font-family: 'Arimo', italic, sans-serif;
+    font-size: 1.5em;
+    color: #555;
+    line-height: 1.6;
+}
+
+h3 {
+    font-family: 'Datatype', monospace;
+    font-size: 3em;
+    color: #213627;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        a {
+            color: rgb(255, 0, 0);
+            text-decoration: none;
+        }
+        a:visited {
+            color: purple;
+        }
+        a:hover {
+            color: rgb(0, 0, 0);
+            text-decoration: underline;
+        }
+            a:active {
+                color: rgb(0, 255, 0);
+            }a::before {
+                content: "➞ ";
+            }
+
+            a::after {
+                content: " 🠔";
+            }
+        .especial {
+            color: rgb(0, 0, 255);
+            font-weight: bold;
+        }
+        .especial::before {
+            content: "⭐ ";
+        }
+        .especial::after {
+            content: " ⭐";
+        } 
+        
+</style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.google.com" target="_blank">Google</a></li>
+        <li><a href="https://www.github.com" class="especial" target="_blank">GitHub</a></li>
+        <li><a href="https://www.stackoverflow.com" target="_blank">Stack Overflow</a></li>
+    </ul>
+</body>
+</html>
