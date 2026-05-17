@@ -14,6 +14,7 @@ body   {
     header {
     background-image: linear-gradient(to bottom, #3ddc84, #063d1e);
     color: white;
+    width: 100%;
     padding: 10px 0px;
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -24,6 +25,7 @@ body   {
         flex-direction: row;
         gap: 10px;
         padding: 0px 0px;
+        width: 100%;
     }
     nav a {
         color: white;
