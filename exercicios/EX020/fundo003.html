@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamento de fundos</title>
+    <style>
+        div.bloco {
+            background-image: url('imgens/wallpaper001.jpg');
+            width: 600px;
+            height: 150px;
+            background-size: cover;
+            background-attachment: fixed;
+            border: 5px solid #000;
+            border-radius: 20px;
+            margin: 10px;
+        }
+        div#bloco1 {
+            background-position: top left;
+        }
+        div#bloco2 {
+            background-position: top right;
+        }
+        div#bloco3 {
+            background-position: bottom left;
+        }
+        div#bloco4 {
+            background-position: bottom right;
+        }
+    </style>
+</head>
+<body>
+    <div class="bloco" id="bloco1">  </div>
+
+    <div class="bloco" id="bloco2"> </div>
+
+    <div class="bloco" id="bloco3"></div>
+
+    <div class="bloco" id="bloco4"></div>
+</body>
+</html>
